@@ -39,7 +39,7 @@ const App = () => {
 				<div className=" col-lg-12">
 					<p
 						className={`quote ${
-							quote.characterDirection === 'Right' ? 'text-left ' : 'text-right '
+							quote.characterDirection === 'Right' ? 'text-left' : 'text-right'
 						}`}
 					>
 						{quote.quote.trim()}
